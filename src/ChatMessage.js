@@ -7,7 +7,7 @@ function ChatMessage(props) {
     return (
     <section className='chat-line'>
         <Avatar classname='chat-img' src={props.message.user.avatar}/>
-        {/* <img className='chat-img' src={props.message.user.avatar} alt={props.message.user.username}></img> */}
+        {/* <img className='chat-img' src={props.message.user.avatar} alt={props.message.user.username}></img>  */}
         <div className='chat-text'>
             <div className='chat-name'>{props.message.user.username}</div>
             
