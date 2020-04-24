@@ -1,0 +1,48 @@
+.chat-img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px
+}
+.chat-line{
+    display: flex;
+    margin: 3px;
+    position: relative
+}
+.chat-name{
+    color: lightgrey;
+    font-size: 0.4rem;
+}
+.chat-message{
+    background-color: #E9E9EB;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 5px;
+    position: relative
+}
+.chat-text{
+    margin-left: 50px;
+
+}
+.current{
+    color: white;
+    background: #1185F7;
+    position: relative;
+    margin-right: 30px;
+}
+.chat-line-current{
+    display: flex;
+    margin: 3px;
+    justify-content: flex-end;
+}
+.chat-tip{
+    position: absolute;
+    left: -10px;
+    bottom: 0
+}
+.chat-tip-current{
+    position: absolute;
+    right: -10px;
+    bottom: 0
+}

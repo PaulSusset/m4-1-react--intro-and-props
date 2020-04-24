@@ -14,8 +14,8 @@ function Button(props) {
   ✂️
 }
 
-// make it _importable_ from other files_
-export default Button;
+// make it _importable_ for other files_
+export { Button, lklk };
 ```
 
 ```js
